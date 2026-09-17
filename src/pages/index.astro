@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Works of Chaos and Pandemonium">
+  <article class="readme">
+    <div class="eyebrow">Read Me</div>
+    <h1>Works of Chaos<br />and Pandemonium</h1>
+
+    <div class="readme-content">
+      <slot />
+      <p>
+        This is the introduction to the archive. Replace this text with the contents
+        of your <strong>READ ME</strong> file when you are ready.
+      </p>
+      <p>
+        The site is divided into works that survived and works that were cut. Each
+        piece keeps its own history: when it was written, when it was last edited,
+        and, for cut works, when and why it was removed.
+      </p>
+    </div>
+  </article>
+</Layout>
